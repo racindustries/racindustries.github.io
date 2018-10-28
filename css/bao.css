@@ -1,0 +1,137 @@
+
+
+/* HEADER */
+
+@media (min-width: 700px) {
+    .header {
+    height:70px;
+    background-color:#84B4E7;
+    padding:0px 50px;
+    border-radius:8px;
+/*    margin:20px;*/
+    border:1px solid #eee;
+    position:relative;
+/*    box-shadow:0 0 2px 2px #eee;*/
+}
+}
+
+
+/*logo*/
+.logo-container {
+    height:auto;
+    postion:absolute;
+    text-align:center;
+    margin-top:20px;
+}
+
+.logo-bao {
+    width:15vh;
+    margin-bottom:20px;
+    /*display:none;*/
+}
+
+/*wodebao*/
+.logo-title {
+    margin:10px 0 0 60px;
+}
+
+.title-bao {
+        width:165px;
+        float:left;
+}
+
+
+/*menu nav*/
+.header-left {
+    font-family: 'Roboto', 'Futura', 'Arial';
+    float:left;
+    margin:15px 0 0 25px;
+}
+
+.header-left a, .header-right a {
+    padding:8px 15px;
+    text-decoration:none;
+    color:#fff;
+    font-size:2vh;
+}
+
+.header .header-left a:hover, .header-right a:hover {
+    background-color: dodgerblue;
+    border-radius:20px;
+}
+
+.header-left a.active {
+    background-color: dodgerblue;
+    border-radius:20px;
+    color: white;
+}
+
+
+.header-right {
+    font-family: 'Roboto', 'Futura', 'Arial';
+    float:right;
+    margin:15px 45px 0 0px;
+}
+
+
+
+
+/* CONTAINER */
+
+.container {
+    background-color:#f2f2f2;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.inner-content {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#fff;
+    padding:30px;
+    border-radius:8px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 2px 2px #eee;
+
+    width:80%;
+    padding:40px;
+}
+
+.container .inner-content .description {
+    font-family:'Futura', 'Helvetica';
+    font-size:5vh;
+    text-align:center;
+}
+
+button {
+background-color: #ffda6d;
+padding:20px 30px;
+font-size:6vh;
+border-radius:20px;
+border: 1px solid #eee;
+box-shadow: 0 0 2px 2px #eee;
+color:#fff;
+font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+}
+
+.reponse {
+    font-size:5vh;
+    font-family: 'Roboto','Futura';
+    text-align:center;
+    padding-top:50px;
+}
+
+#hiddenImage {
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:20px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 7px 7px #eee;
+}
