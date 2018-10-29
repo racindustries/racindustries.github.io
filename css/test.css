@@ -1,0 +1,27 @@
+header {
+    background-color:#84B4E7;
+    border-radius:8px;
+/*    margin:20px;*/
+    border:1px solid #eee;
+/*    box-shadow:0 0 2px 2px #eee;*/
+float: left; width: 100%; position: fixed; z-index: 10;
+}
+
+header.large{ height: 120px; }
+header.large img{ width: 489px; height: 113px; }
+header.large li{ margin-top: 45px; }
+
+
+
+/*old*/
+
+.header {
+    height:70px;
+    background-color:#84B4E7;
+    padding:0px 50px;
+    border-radius:8px;
+/*    margin:20px;*/
+    border:1px solid #eee;
+    position:relative;
+/*    box-shadow:0 0 2px 2px #eee;*/
+}
