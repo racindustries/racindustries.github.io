@@ -1,12 +1,19 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
+/*COLORS*/
+
+/*jaune : #ffda6d */
+/*bleu : #afcff9 */
+
+
+
 /*COMMON TO ALL SITE*/
 
 /* HEADER */
 
 .header {
     height:70px;
-    background-color:#84B4E7;
+    background-color:#afcff9;
     padding:0px 50px;
     border-radius:8px;
 /*    margin:20px;*/
@@ -35,7 +42,7 @@
 }
 
 .title-bao {
-        width:165px;
+        width:125px;
         float:left;
 }
 
@@ -112,7 +119,7 @@
 .button-command1 {
 background-color: #ffda6d;
 padding:20px 30px;
-font-size:6vh;
+font-size:4vh;
 border-radius:20px;
 border: 1px solid #eee;
 box-shadow: 0 0 2px 2px #eee;
