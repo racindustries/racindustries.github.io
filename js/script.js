@@ -1,3 +1,12 @@
+function responsiveMenu() {
+    var x = document.getElementById("header-left-topnav");
+    if (x.className === "header-left") {
+        x.className += " responsive";
+    } else {
+        x.className = "header-left"
+    }
+}
+
 function toOrder() {
     document.getElementById("toCommandChoice").scrollIntoView({behavior: "smooth"});
 }

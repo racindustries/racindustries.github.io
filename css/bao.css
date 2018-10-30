@@ -41,6 +41,12 @@
     margin:10px 0 0 60px;
 }
 
+@media screen and (max-width:800px) {
+    .logo-title {
+    margin:10px 0 0 0px;
+}
+}
+
 .title-bao {
         width:125px;
         float:left;
@@ -49,24 +55,61 @@
 
 
 /*menu nav*/
-.header-left {
+@media screen and (min-width:801px) {.header-left {
     font-family: 'Roboto', 'Futura', 'Arial';
     float:left;
     margin:15px 0 0 25px;
 }
+}
 
-@media screen and (max-width: 600px) {
-    .header-left {
-        width:10%;
+.header-left .icon {
+    display:none;
+}
+
+@media screen and (max-width: 800px) {
+    .header-left a {
+        padding:0px;
+        color:#fff;
+        font-size:40px;
     }
 }
 
-.header-left a, .header-right a {
+@media screen and (min-width:801px) {
+    .header-left a, .header-right a {
     padding:8px 15px;
     text-decoration:none;
     color:#fff;
-    font-size:2vh;
+    font-size:16px;
 }
+}
+
+@media screen and (max-width: 800px) {
+  .header-left a, .header-right a {
+    display: none;
+}
+  .header-left a.icon {
+    display: block;
+    float: right;
+    margin: 5px 0px 0px 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .header-left.responsive {
+        position:relative;
+        background-color: blue;
+    }
+    .header-left.responsive a.icon {
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    .header-left.responsive a {
+        float:none;
+        display:block;
+    }
+}
+
 
 .header .header-left a:hover, .header-right a:hover {
     background-color: dodgerblue;
@@ -97,6 +140,13 @@
     padding-bottom:50px;
 }
 
+@media screen and (max-width:800px) {
+    .container {
+        padding-top:0px;
+        width:100%;
+    }
+}
+
 .inner-content {
     display:block;
     margin-left:auto;
@@ -108,13 +158,28 @@
     box-shadow: 0 0 2px 2px #eee;
     width:80%;
     padding:40px;
+    border-radius:0px;
+}
+
+@media screen and (max-width:800px) {
+    .inner-content {
+    }
 }
 
 .container .inner-content .description {
-    font-family:'Futura', 'Helvetica';
-    font-size:5vh;
+    font-family:'Shadows Into Light','Futura', 'Helvetica';
+    font-size:35px;
     text-align:center;
-    margin-top:20px;
+    margin:20px 100px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 800px) {
+    .container .inner-content .description {
+    font-size:25px;
+    text-align:center;
+    margin:20px 40px;
+    }
 }
 
 .button-command1 {
@@ -466,7 +531,7 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
     text-decoration: none;
 }
 
-.fa:hover {
+.social-icons .fa:hover {
     opacity: 0.7;
     text-decoration: none;
 }
