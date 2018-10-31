@@ -465,12 +465,12 @@ font-family: 'Futura', 'Arial', 'Helvetica';
 .button-validate-order1 {
 background-color: #EB6F6D;
 padding:10px 20px;
-font-size:4vh;
+font-size:3.5vh;
 border-radius:20px;
 border: 1px solid #eee;
 box-shadow: 0 0 2px 2px #eee;
 color:#fff;
-font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
+font-family: 'Futura', 'Arial', 'Helvetica';
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -564,7 +564,7 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
 
 #user-reviews-title {
     text-align:center;
-    font-family:'futura', 'comic sans ms', 'helvetica';
+    font-family:'futura', 'helvetica';
     color:#84b4e7;
     font-size:40px;
 }
@@ -587,7 +587,7 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
 
 .contact {
     text-align:center;
-    font-family:'futura', 'comic sans ms', 'helvetica';
+    font-family:'futura', 'helvetica';
     margin-top: 20px;
     color:#bbb;
     font-size:20px;
@@ -595,7 +595,7 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
 
 .contact-adress {
     text-align:center;
-    font-family:'futura', 'comic sans ms', 'helvetica';
+    font-family:'futura', 'helvetica';
     color:#eee;
     text-decoration:none;
     font-size:20px;
@@ -703,7 +703,7 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
 
 .blog-inner-content .article-title {
     text-align:center;
-    font-family: 'comic sans ms', 'futura';
+    font-family: 'futura';
 }
 
 .blog-inner-content .blog-image {
