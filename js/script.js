@@ -1,9 +1,12 @@
 function responsiveMenu() {
-    var x = document.getElementById("header-left-topnav");
-    if (x.className === "header-left") {
+    var x = document.getElementById("myTopnav");
+    var y = document.getElementById("img-logo");
+    if (x.className === "header-topnav") {
         x.className += " responsive";
+        y.style.display = "none";
     } else {
-        x.className = "header-left"
+        x.className = "header-topnav"
+        y.style.display = "block";
     }
 }
 
@@ -24,4 +27,21 @@ function backToTop() {
 function toContact() {
     document.getElementById("contact-block").scrollIntoView({behavior: "smooth"});
 }
+
+
+$(function() {
+
+  $(window).scroll(function() {
+    var x = $(window).responsiveMenu();
+
+    if (x > 42) {
+      $(".logo-title").hide();
+    } else {
+      $(".logo-title").show();
+    }
+
+  });
+
+});
+
 
