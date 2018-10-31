@@ -35,11 +35,21 @@
 }
 
 /*logo*/
-.logo-container {
+@media screen and (min-width:801px) {.logo-container {
     height:auto;
     postion:absolute;
     text-align:center;
     margin-top:20px;
+}
+}
+
+@media screen and (max-width:800px) {
+    .logo-container {
+    height:auto;
+    postion:absolute;
+    text-align:center;
+    margin-top:0px;
+}
 }
 
 .logo-bao {
@@ -312,15 +322,28 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
     padding:40px;
 }
 
-.main-command .command-title {
+@media screen and (min-width:801px) {.main-command .command-title {
     text-align:center;
     font-family:'futura','helvetica';
     font-size:30px;
+    border-bottom: 1px solid #eee;
+    padding: 20px 20px 30px 20px;
+    margin-bottom:15px;
+    color:#84b4e7;
+    margin: 0px auto 10px;
+}
+}
+
+@media screen and (max-width:800px) {.main-command .command-title {
+    text-align:center;
+    font-family:'futura','helvetica';
+    font-size:20px;
     border-bottom: 1px solid #eee;
     padding: 10px 20px;
     margin-bottom:15px;
     color:#84b4e7;
     margin: 0px auto 10px;
+}
 }
 
 .command {
@@ -339,6 +362,29 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
     width: 27%;
 /*    margin: 40px 10% 0px 10px;*/
     padding-top: 20px;
+}
+
+
+@media screen and (min-width: 800px) {
+.column-choice .img-choice-bao {
+    width: 70%;
+    height: auto;
+    margin-bottom:15px;
+    border-radius:20px;
+    border: 2px solid #eee;
+    box-shadow: 0 0 2px 2px #eee;
+}
+.form-control {
+    position: relative;
+    font-size:20px;
+    font-family:'futura';
+    padding:20%;
+    background-color: #fff;
+/*    color:#84B4E7;*/
+    color:#000;
+    border: 1px solid #eee;
+    margin-top:20px;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -362,30 +408,10 @@ font-family: 'Comic Sans MS', 'Roboto', 'Futura', 'Arial', 'Helvetica';
         font-family:'futura';
         padding:5px 15px;
         background-color: #fff;
-        color:#84B4E7;
+/*        color:#84B4E7;*/
+        color:#000;
         border: 1px solid #eee;
         margin-top:20px;
-}
-}
-
-@media screen and (min-width: 800px) {
-.column-choice .img-choice-bao {
-    width: 70%;
-    height: auto;
-    margin-bottom:15px;
-    border-radius:20px;
-    border: 2px solid #eee;
-    box-shadow: 0 0 2px 2px #eee;
-}
-.form-control {
-    position: relative;
-    font-size:20px;
-    font-family:'futura';
-    padding:20%;
-    background-color: #fff;
-    color:#84B4E7;
-    border: 1px solid #eee;
-    margin-top:20px;
 }
 }
 
