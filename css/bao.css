@@ -75,8 +75,6 @@
 
 /*menu nav*/
 
-
-
 .header-topnav a {
   float: right;
   display: block;
@@ -117,12 +115,19 @@
   }
 }
 
+
+.container.pushed .content{
+   margin-top: 60px;
+}
+
 @media screen and (max-width: 800px) {
   .header-topnav.responsive {
     position: relative;
     background-color: #afcff9;
-    padding:20px;
+    border-radius:8px;
+    padding:0 20px;
 }
+
   .header-topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -132,7 +137,7 @@
     float: none;
     display: block;
     text-align: left;
-    font-family:'Shadows Into Light';
+    font-family:'futura','Shadows Into Light';
   }
 }
 
