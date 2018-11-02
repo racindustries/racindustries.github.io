@@ -319,7 +319,7 @@ font-family: 'Futura', 'Arial', 'Helvetica';
     display:block;
     margin-left:auto;
     margin-right:auto;
-    border-radius:20px;
+    border-radius:8px;
     border: 2px solid #eee;
     /*box-shadow: 0 0 7px 7px #eee;*/
     margin-top:30px;
@@ -332,7 +332,7 @@ font-family: 'Futura', 'Arial', 'Helvetica';
     display:block;
     margin-left:auto;
     margin-right:auto;
-    border-radius:20px;
+    border-radius:8px;
     border: 2px solid #eee;
 /*    box-shadow: 0 0 7px 7px #eee;*/
     margin-top:30px;
