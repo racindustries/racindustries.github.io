@@ -207,7 +207,7 @@
 
 
 .container .inner-content .description {
-    font-family:'Shadows Into Light','Futura', 'Helvetica';
+    font-family:'Shadows Into Light';
     font-size:35px;
     text-align:center;
     margin:20px 100px;
@@ -295,11 +295,22 @@ font-family: 'Futura', 'Arial', 'Helvetica';
     color:#bbb;
 }
 
-.reponse {
-    font-size:25px;
-    font-family: 'Gill Sans','Futura';
+@media screen and (min-width:801px) {
+    .reponse {
+    font-size:30px;
+    font-family: 'Shadows into light', 'Gill Sans','Futura';
     text-align:center;
     padding-top:50px;
+}
+}
+
+@media screen and (max-width:800px) {
+    .reponse {
+    font-size:20px;
+    font-family: 'Shadows into light', 'Gill Sans','Futura';
+    text-align:center;
+    padding-top:50px;
+}
 }
 
 @media screen and (min-width:801px) {
@@ -310,20 +321,20 @@ font-family: 'Futura', 'Arial', 'Helvetica';
     margin-right:auto;
     border-radius:20px;
     border: 2px solid #eee;
-    box-shadow: 0 0 7px 7px #eee;
+    /*box-shadow: 0 0 7px 7px #eee;*/
     margin-top:30px;
 }
 }
 
 @media screen and (max-width:800px) {
     #hiddenImage {
-    width:90%;
+    width:100%;
     display:block;
     margin-left:auto;
     margin-right:auto;
     border-radius:20px;
     border: 2px solid #eee;
-    box-shadow: 0 0 7px 7px #eee;
+/*    box-shadow: 0 0 7px 7px #eee;*/
     margin-top:30px;
 }
 }
