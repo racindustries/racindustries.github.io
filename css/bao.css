@@ -97,7 +97,7 @@
 }
 
 .header-topnav a:hover {
-  background-color: #6EA6F0;
+  background-color: #86B3EE;
   /*color: black;*/
   border-radius:20px;
 }
@@ -622,7 +622,11 @@ font-family: 'Futura', 'Arial', 'Helvetica';
 }
 
 .header-right a:hover {
-    background-color:dodgerblue;
+    background-color:#FACA3B;
+}
+
+.header-blog a:hover {
+    background-color: #FACA3B;
 }
 
 .header-blog .header-left a:hover, .header-blog .header-right a:hover {

@@ -60,4 +60,20 @@ function toContact() {
 
 // });
 
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1xPdmTaHxi_ivJmsh_-zJqQLsa0lTPNRQ73-1VMswlaM/edit#gid=0';
+
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert('Database sucessfully connected!')
+    console.log(data);
+  }
+
+  window.addEventListener('DOMContentLoaded', init)
+
+
 
