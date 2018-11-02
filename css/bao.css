@@ -296,8 +296,8 @@ font-family: 'Futura', 'Arial', 'Helvetica';
 }
 
 .reponse {
-    font-size:5vh;
-    font-family: 'Roboto','Futura';
+    font-size:25px;
+    font-family: 'Gill Sans','Futura';
     text-align:center;
     padding-top:50px;
 }

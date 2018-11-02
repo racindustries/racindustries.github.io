@@ -33,6 +33,7 @@ function toOrder() {
 function unBao() {
     document.getElementById("hiddenBao").style.display = 'block';
     document.getElementById("hiddenImage").style.display = 'block';
+    document.getElementById("hiddenBao2").style.display = 'block';
     document.getElementById("hiddenImage").scrollIntoView({behavior: "smooth"});
 }
 
@@ -68,12 +69,12 @@ function toContact() {
                      simpleSheet: true } )
   }
 
-  function showInfo(data, tabletop) {
-    alert('Database sucessfully connected!')
-    console.log(data);
-  }
+  // function showInfo(data, tabletop) {
+  //   alert('Database sucessfully connected!')
+  //   console.log(data);
+  // }
 
-  window.addEventListener('DOMContentLoaded', init)
+  // window.addEventListener('DOMContentLoaded', init)
 
 
 
