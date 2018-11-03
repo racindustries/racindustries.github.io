@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:'Shadows Into Light';
-    src: url('fonts/shadows_into_light/ShadowsIntoLight.ttf');
+    src: url('fonts/ShadowsIntoLight.ttf');
 }
 
 /*COLORS*/
@@ -221,9 +221,11 @@
 
 @media screen and (max-width: 800px) {
     .container .inner-content .description {
-    font-size:25px;
+    font-size:20px;
+    font-family:'Shadows Into Light','Gill Sans', 'Helvetica';
     text-align:center;
     margin:30px 0px 0px 0px;
+    letter-spacing:1px;
     }
     .button-command1 {
     background-color: #ffda6d;
