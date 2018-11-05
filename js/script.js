@@ -7,7 +7,7 @@ function responsiveMenu() {
         x.className += " responsive";
         y.style.display = "none";
         $('#mainContainer').css({
-        'padding-top': '100px',
+        'padding-top': '120px',
     });
     } else {
         x.className = "header-topnav"
